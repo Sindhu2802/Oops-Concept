@@ -2,9 +2,9 @@ package Inheritance;
 
 public class BankInform {
     public static void main(String[] args) {
-        Bank b1 = new SBI();   // SBI is a Bank
-        Bank b2 = new HDFC();  // HDFC is a Bank
-        Bank b3 = new ICICI(); // ICICI is a Bank
+        Bank b1 = new SBI();   
+        Bank b2 = new HDFC();  
+        Bank b3 = new ICICI(); 
 
         b1.bankName();
         System.out.println("SBI Rate of Interest: " + b1.getRateOfInterest() + "%");
@@ -12,4 +12,5 @@ public class BankInform {
         System.out.println("ICICI Rate of Interest: " + b3.getRateOfInterest() + "%");
     }
 }
+
 
